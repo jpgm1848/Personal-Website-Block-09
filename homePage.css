@@ -69,8 +69,39 @@ body {
 .text {
   text-align: center;
   font-size: x-large;
-  margin-right: 10px;
-  /* padding-left: 50px;
+  margin-right: 100px;
+  /*padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 100px;
+  margin-left: 200px; */
+}
+
+.introHeader2 {
+  border: 5px solid black;
+  margin: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.introImage2 {
+  margin: 20px;
+  padding-right: 10px;
+  height: inherit;
+}
+
+#photo2 {
+  height: 90%;
+  border: 5px solid #99b27f;
+}
+
+.text2 {
+  text-align: justify;
+  font-size: x-large;
+  margin-left: 50px;
+  padding-right: 50px;
+  /*padding-left: 50px;
   padding-right: 50px;
   margin-right: 100px;
   margin-left: 200px; */
