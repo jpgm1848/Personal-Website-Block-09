@@ -2,7 +2,7 @@ body {
   background: #eeedbe;
 }
 .header {
-  overflow: hidden;
+  overflow: auto;
   background-color: #c37857;
   border: 5px solid black;
   padding: 20px 10px;
@@ -48,6 +48,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  overflow: auto;
 }
 
 .introHeader {
@@ -57,6 +58,7 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   height: 500px;
+  overflow: auto;
 }
 
 .introImage {
@@ -74,10 +76,7 @@ body {
   text-align: center;
   font-size: x-large;
   margin-right: 100px;
-  /*padding-left: 50px;
-  padding-right: 50px;
-  margin-right: 100px;
-  margin-left: 200px; */
+  overflow: auto;
 }
 
 .text > h3 {
@@ -91,6 +90,7 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   height: 500px;
+  overflow: auto;
 }
 
 .introImage2 {
@@ -102,6 +102,7 @@ body {
 #photo2 {
   height: 90%;
   border: 5px solid #99b27f;
+  overflow: auto;
 }
 
 /* Woud be cool to figure out how to rotate this image on clicking, 
@@ -112,10 +113,7 @@ body {
   font-size: x-large;
   margin-left: 50px;
   padding-right: 50px;
-  /*padding-left: 50px;
-  padding-right: 50px;
-  margin-right: 100px;
-  margin-left: 200px; */
+  overflow: auto;
 }
 
 .text2 > h3 {
