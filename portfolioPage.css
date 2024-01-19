@@ -42,6 +42,51 @@ body {
   float: right;
 }
 
+.footer {
+  overflow: hidden;
+  background-color: #c37857;
+  border: 5px solid black;
+  vertical-align: bottom;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.flexContainer1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.aboutIntro > h2 {
+  border: 4px solid black;
+  text-align: center;
+  font-size: x-large;
+  padding: 10px;
+}
+
+.flexContainer2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+  border: 3px solid black;
+}
+
+.firstFact {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.firstFact > img {
+  margin: 10px;
+}
+
+.firstText {
+  margin: 10px;
+  font-size: x-large;
+}
+
 @media screen and (max-width: 500px) {
   .header a {
     float: none;

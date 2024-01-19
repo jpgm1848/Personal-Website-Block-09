@@ -42,6 +42,19 @@ body {
   float: right;
 }
 
+/* .footer {
+  overflow: hidden;
+  background-color: #c37857;
+  border: 5px solid black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  max-height: 80px;
+  padding: 20px 10px;
+  width: 100%;
+  text-align: center;
+} */
+
 /* Above is Header */
 
 .flexContainer1 {
@@ -58,7 +71,7 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   height: 500px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .introImage {
@@ -76,7 +89,7 @@ body {
   text-align: center;
   font-size: x-large;
   margin-right: 100px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .text > h3 {
@@ -90,7 +103,7 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   height: 500px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .introImage2 {
@@ -114,6 +127,10 @@ body {
   margin-left: 50px;
   padding-right: 50px;
   overflow: auto;
+  /*padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 100px;
+  margin-left: 200px; */
 }
 
 .text2 > h3 {
