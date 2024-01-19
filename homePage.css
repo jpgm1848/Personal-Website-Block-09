@@ -8,6 +8,10 @@ body {
   padding: 20px 10px;
 }
 
+#headerName {
+  font-size: 4vw;
+}
+
 .header a {
   float: left;
   color: black;
@@ -76,6 +80,10 @@ body {
   margin-left: 200px; */
 }
 
+.text > h3 {
+  text-decoration: underline;
+}
+
 .introHeader2 {
   border: 5px solid black;
   margin: 20px;
@@ -96,6 +104,9 @@ body {
   border: 5px solid #99b27f;
 }
 
+/* Woud be cool to figure out how to rotate this image on clicking, 
+90 degrees left. */
+
 .text2 {
   text-align: justify;
   font-size: x-large;
@@ -105,6 +116,10 @@ body {
   padding-right: 50px;
   margin-right: 100px;
   margin-left: 200px; */
+}
+
+.text2 > h3 {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 500px) {

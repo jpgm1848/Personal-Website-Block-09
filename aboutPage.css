@@ -8,6 +8,10 @@ body {
   padding: 20px 10px;
 }
 
+#headerName {
+  font-size: 4vw;
+}
+
 .header a {
   float: left;
   color: black;
