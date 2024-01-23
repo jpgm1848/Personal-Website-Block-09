@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="aboutPage.css" />
+    <link rel="stylesheet" href="contactPage.css" />
     <script src="helloWorld.js"></script>
     <title>Contact Page</title>
   </head>
@@ -17,32 +17,42 @@
         <a class="active" href="contactPage.html">Contact</a>
       </div>
     </div>
-    <form>
-      <label for="formName">Name: </label><br />
-      <input type="text" id="formName" name="formName" /><br /><br />
+    <div class="flexContainer1">
+      <div class="message">
+        <h1>
+          Thank you for visiting my page. If you would like to get in contact
+          with me, please fill out the following form.
+        </h1>
+      </div>
+      <div class="emailForm">
+        <form>
+          <label for="formName">Name: </label><br />
+          <input type="text" id="formName" name="formName" /><br /><br />
 
-      <label for="formEmail">E-mail</label><br />
-      <input type="email" id="formEmail" name="formEmail" /><br /><br />
+          <label for="formEmail">E-mail</label><br />
+          <input type="email" id="formEmail" name="formEmail" /><br /><br />
 
-      <label for="message">Message</label><br />
-      <textarea name="message" id="message" cols="50" rows="4">
+          <label for="message">Message</label><br />
+          <textarea name="message" id="message" cols="50" rows="4">
 Write your message here.</textarea
-      ><br />
+          ><br />
 
-      <input type="submit" value="Submit" />
-    </form>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
 
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <div class="footer">
-      <a
-        href="https://www.linkedin.com/in/juan-pablo-gonzalez-marin-b1720620b/"
-        target="_blank"
-      >
-        <img src="linkedIn.png" alt="" width="7%" />
-      </a>
-      <a href="https://github.com/jpgm1848" target="_blank">
-        <img src="gitHub.png" alt="" width="7%" />
-      </a>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <div class="footer">
+        <a
+          href="https://www.linkedin.com/in/juan-pablo-gonzalez-marin-b1720620b/"
+          target="_blank"
+        >
+          <img src="linkedIn.png" alt="" width="7%" />
+        </a>
+        <a href="https://github.com/jpgm1848" target="_blank">
+          <img src="gitHub.png" alt="" width="7%" />
+        </a>
+      </div>
     </div>
   </body>
 </html>

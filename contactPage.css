@@ -42,10 +42,38 @@ body {
   float: right;
 }
 
+.flexContainer1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.message {
+  text-align: center;
+  size-adjust: xx-large;
+  border: 3px solid black;
+  padding-top: 3vh;
+  margin-top: 10vh;
+  margin-left: 16vh;
+  margin-right: 5vh;
+  margin-bottom: 10vh;
+  width: 50vh;
+}
+
+.emailForm {
+  size-adjust: xx-large;
+  margin-top: 10vh;
+  margin-right: 10vh;
+  margin-bottom: 10vh;
+  width: 50vh;
+}
+
 .footer {
   overflow: hidden;
   background-color: #c37857;
   border: 5px solid black;
+  margin-top: 30vh;
   vertical-align: bottom;
   padding: 20px 10px;
   text-align: center;
